@@ -1,0 +1,26 @@
+{
+  "name": "type/location",
+  "description": "Generic location models",
+  "keywords": [
+    "location",
+    "address",
+    "city",
+    "country",
+    "geolocation"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keven",
+      "email": "hello@keven.fr"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Type\\Location\\": "src"
+    }
+  }
+}
